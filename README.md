@@ -1,0 +1,1 @@
+Cryptocurrency Data Pipeline with Docker Compose, PostgreSQL, Airflow, Terraform, AWS S3, and AWS Redshift
