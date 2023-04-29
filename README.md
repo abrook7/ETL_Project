@@ -1,8 +1,8 @@
-# Cryptocurrency Data Pipeline with Docker Compose, PostgreSQL, Airflow, Terraform, AWS S3, and AWS Redshift
+# Cryptocurrency Data Pipeline with Docker Compose, PostgreSQL, Airflow, Terraform, AWS S3, AWS Redshift, and AWS Quicksight.
 
 ## Overview
 
-The goal of this project is to create an orchestrated ETL pipeline moving `Open, High, Low, Close, and Volume` (ohlcv) data. This is done by using a local Airflow instance running in a docker-compose environment to orchestrate dags written in Python. These dags save data every 5 minutes to a local Postgres database, load csv files to S3 once a day, and then copies the csv file data into Redshift tables.
+The goal of this project is to create an orchestrated ETL pipeline moving `Open, High, Low, Close, and Volume` [(ohlcv)](https://docs.coinapi.io/market-data/rest-api/ohlcv) data to cloud storage for analytics/business intelligence. This is done by using a local Airflow instance running in a docker-compose environment to orchestrate dags written in Python. These dags save data every 5 minutes to a local Postgres database, load csv files to S3 once a day, and then copies the csv file data into Redshift tables. Lastly the data is visualized in an AWS quicksight dashboard.
 
 ## Technologies being used:
 
@@ -12,9 +12,9 @@ The goal of this project is to create an orchestrated ETL pipeline moving `Open,
 * Orchestration: Airflow
 * Data lake: S3
 * Data warehouse: Redshift
-* Data visualization: tbd
+* Data visualization: Quicksight
 * Local Database: PostgreSQL
-* API: CoinAPI
+* API: [CoinAPI](https://www.coinapi.io/)
 
 ## Dashboard example:
 
