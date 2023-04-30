@@ -16,9 +16,6 @@ The goal of this project is to create an orchestrated ETL pipeline moving `Open,
 * Local Database: PostgreSQL
 * API: [CoinAPI](https://www.coinapi.io/)
 
-## Dashboard example:
-
-![](images/Dashboard_Screenshot.png)
 
 ## How the Pipeline Works
 
@@ -55,3 +52,7 @@ All of the cloud infrastructure was defined using Terraform.
     * In my case this is an S3 bucket, a Redshift cluster, an IAM role with policies tthat allow Redshift to copy from S3, a default vpc, security group, and a vpc enpoint which allows us to establish the connection created in the Airflow web ui.
     * A `variables.tf` was created to save the credentials used to create the infrastructure, but was ignored in the `.gitignore` file.
 
+
+## AWS Quicksight Dashboard example:
+
+![](images/Dashboard_Screenshot.png)
