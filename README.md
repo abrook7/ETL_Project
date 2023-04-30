@@ -38,10 +38,12 @@ The goal of this project is to create an orchestrated ETL pipeline moving `Open,
     * A connection to the Redshift cluster created by Terraform was defined in the Airflow web ui by defining the host, database, user, password, and port to connect to.
 6. Lastly, the `S3ToRedshiftOperator` is used to COPY the csv file information from S3 into Redshift using both S3 and Redshift connections.
 
-![Dag orchestrated every 5 minutes to load data into Postgres](images/crypto_prices_dag.png)
 `crypto_prices_dag` orchestrated every 5 minutes to load data into Postgres.
-![Dag orchestrated once daily to load data from Postgres to S3 and Redshift](images/crypto_prices_load_to_s3_redshift_dag.png)
+![Dag orchestrated every 5 minutes to load data into Postgres](images/crypto_prices_dag.png)
+
 `crypto_prices_load_to_s3_redshift` dag orchestrated once daily to load data from Postgres to S3 and Redshift
+![Dag orchestrated once daily to load data from Postgres to S3 and Redshift](images/crypto_prices_load_to_s3_redshift_dag.png)
+
 
 ### AWS Cloud Infrastructure
 
