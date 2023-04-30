@@ -68,5 +68,5 @@ All of the cloud infrastructure was defined using Terraform.
 
 1. All raw data from the bitcoin prices table:
 
-![](images/sql/select_all_query.png.png)
-![](images/sql/select_all_result.png.png)
+![](images/sql/select_all_query.png)
+![](images/sql/select_all_result.png)
