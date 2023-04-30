@@ -16,3 +16,9 @@ SELECT
 FROM "mydb"."public"."bitcoin_prices" 
 ORDER BY volume_traded DESC
 LIMIT 1;
+
+--High and Low Price
+SELECT 
+    max(price_high), 
+    min(price_low) 
+FROM "mydb"."public"."bitcoin_prices";
