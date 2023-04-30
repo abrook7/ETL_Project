@@ -9,3 +9,6 @@ terraform/.terraform.lock.hcl
 terraform/terraform.tfstate
 terraform/terraform.tfstate.backup
 terraform/variables.tf
+
+#flow diagram xml
+images/flow_diagram.drawio
