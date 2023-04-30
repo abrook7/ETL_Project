@@ -22,6 +22,11 @@ The goal of this project is to create an orchestrated ETL pipeline moving `Open,
 
 ## How the Pipeline Works
 
+### Pipeline Flowchart
+
+![](images/flow_diagram.drawio.png)
+
+
 ### Crypto Data Pipeline
 
 1. Run `docker-compose up`.
@@ -49,9 +54,4 @@ All of the cloud infrastructure was defined using Terraform.
 3. The infrastructure has been created and can be viewed on the AWS console home.
     * In my case this is an S3 bucket, a Redshift cluster, an IAM role with policies tthat allow Redshift to copy from S3, a default vpc, security group, and a vpc enpoint which allows us to establish the connection created in the Airflow web ui.
     * A `variables.tf` was created to save the credentials used to create the infrastructure, but was ignored in the `.gitignore` file.
-
-
-### Pipeline Flowchart
-
-![](images/flow_diagram.drawio.png)
 
