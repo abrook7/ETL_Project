@@ -61,4 +61,4 @@ All of the cloud infrastructure was defined using Terraform.
 
 ## AWS Quicksight Dashboard example:
 
-![](images/Dashboard_Screenshot.png)
+![](images/Updated_Dashboard_Screenshot.png)
