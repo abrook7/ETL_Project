@@ -18,7 +18,7 @@ The goal of this project is to create an orchestrated ETL pipeline moving `Open,
 
 ## Dashboard example:
 
-Click here to see my dashboard.
+![](images/Dashboard_Screenshot.png)
 
 ## How the Pipeline Works
 
