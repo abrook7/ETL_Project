@@ -62,3 +62,11 @@ All of the cloud infrastructure was defined using Terraform.
 ## AWS Quicksight Dashboard example:
 
 ![](images/Updated_Dashboard_Screenshot.png)
+
+
+## AWS Redshift Query examples:
+
+1. All raw data from the bitcoin prices table:
+
+![](images/sql/select_all_query.png.png)
+![](images/sql/select_all_result.png.png)
