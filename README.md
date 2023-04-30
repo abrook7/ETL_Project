@@ -53,5 +53,5 @@ All of the cloud infrastructure was defined using Terraform.
 
 ### Pipeline Flowchart
 
-here is the pipeline flowchart
+![](images/flow_diagram.drawio.png)
 
