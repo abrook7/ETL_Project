@@ -75,3 +75,8 @@ All of the cloud infrastructure was defined using Terraform.
 
 ![](images/sql/Highest_volume_trading_period_query.png)
 ![](images/sql/Highest_volume_trading_period_result.png)
+
+3. Max and Min prices through whole data collection period:
+
+![](images/sql/Max_Min_prices.png)
+![](images/sql/Max_Min_prices_result.png)
