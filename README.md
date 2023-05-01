@@ -70,3 +70,8 @@ All of the cloud infrastructure was defined using Terraform.
 
 ![](images/sql/select_all_query.png)
 ![](images/sql/select_all_result.png)
+
+2. Highest volume trading period:
+
+![](images/sql/Highest_volume_trading_period_query.png)
+![](images/sql/Highest_volume_trading_period_result.png)
